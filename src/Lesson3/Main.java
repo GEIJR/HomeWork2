@@ -10,17 +10,17 @@ public class Main {
 
     public static void main(String[] args) {
         // к заданию 1
-        int[] num = new int[]{};
-        num = new int[]{1, 2, 3, 4, 5, 6, 7};
+        Integer[] num = new Integer[]{};
+        num = new Integer[]{1, 2, 3, 4, 5, 6, 7};
         swap(num, 1, 4);
 
         Fruits();// к заданию 2
 
     }
      //Задание 1
-    public static void swap(int[] num, int n1, int n2) {
+     public static void swap(Integer[] num, int n1, int n2) {
         System.out.println(Arrays.toString(num));
-        int sw = num[n1];
+        Integer sw = num[n1];
         num[n1] = num[n2];
         num[n2] = sw;
         System.out.println("Рузультат замены мест двух элементов массива: " + Arrays.toString(num) + "\n================================");
