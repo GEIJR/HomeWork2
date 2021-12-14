@@ -35,7 +35,6 @@ public class Weather {
 
         System.out.println(url);
 
-        // При необходимости указать заголовки
         Request requestHttp = new Request.Builder()
                 .addHeader("accept", "application/json")
                 .url(url)
